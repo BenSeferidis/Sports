@@ -2,7 +2,7 @@
 
 <img width="652" alt="sports" src="https://user-images.githubusercontent.com/49198410/172022686-6eb0ebe7-8d07-4e8a-9efb-927e9f30c788.png">
 
-This is an app developed by students of IEE IHU Students. 
+This is an app developed by students of IEE IHU. 
 This Project was created for a lecture called Advanced Topics of Human Computer Interaction (Mobile Programming) from the International Hellenic University.
 The language is in English .
 You can Insert an Athlete or a Sport or a Team and they are saved in the local Database using ROOM API.

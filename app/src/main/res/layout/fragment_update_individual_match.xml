@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ui.Fragments.UpdateIndividualMatchFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE MATCH"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_margin="24dp"
+
+        />
+
+    <EditText
+        android:id="@+id/matchID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Match ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Date"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert City"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Country"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/AthletesCompeted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="How Many Athletes Competed"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/SportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Sport ID"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/AtheteID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert The Athlete's ID"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert The Athlete's Score"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="update" />
+
+</LinearLayout>

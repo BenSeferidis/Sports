@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_insert_sport">
+
+    <fragment
+        android:id="@+id/nav_insert_sport"
+        android:name="com.example.sports.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_update_sport"
+        android:name="com.example.sports.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_delete_sport"
+        android:name="com.example.sports.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_insert_athlete"
+        android:name="com.example.sports.ui.gallery.GalleryFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_update_athlete"
+        android:name="com.example.sports.ui.gallery.GalleryFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_delete_athlete"
+        android:name="com.example.sports.ui.gallery.GalleryFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_insert_team"
+        android:name="com.example.sports.InsertTeamFragment"
+        tools:layout="@layout/fragment_delete_team" />
+
+    <fragment
+        android:id="@+id/nav_update_team"
+        android:name="com.example.sports.InsertTeamFragment"
+        tools:layout="@layout/fragment_delete_team" />
+
+    <fragment
+        android:id="@+id/nav_delete_team"
+        android:name="com.example.sports.DeleteTeamFragment"
+        tools:layout="@layout/fragment_delete_team" />
+
+<<<<<<< Updated upstream
+=======
+    <fragment
+        android:id="@+id/nav_query"
+        android:name="com.example.sports.ui.Fragments.QueryFragment"
+        tools:layout="@layout/fragment_query" />
+
+    <fragment
+        android:id="@+id/nav_insert_individual_match"
+        android:name="com.example.sports.ui.Fragments.InsertIndividualMatchFragment"
+        tools:layout="@layout/fragment_insert_individual_match" />
+
+    <fragment
+        android:id="@+id/nav_update_individual_match"
+        android:name="com.example.sports.ui.Fragments.UpdateIndividualMatchFragment"
+        tools:layout="@layout/fragment_update_individual_match" />
+
+    <fragment
+        android:id="@+id/nav_delete_individual_match"
+        android:name="com.example.sports.ui.Fragments.DeleteIndividualMatchFragment"
+        tools:layout="@layout/fragment_delete_individual_match" />
+>>>>>>> Stashed changes
+
+    <fragment
+        android:id="@+id/nav_insert_team_match"
+        android:name="com.example.sports.ui.Fragments.InsertTeamMatchFragment"
+        tools:layout="@layout/fragment_insert_team_match" />
+
+    <fragment
+        android:id="@+id/nav_update_team_match"
+        android:name="com.example.sports.ui.Fragments.UpdateTeamMatchFragment"
+        tools:layout="@layout/fragment_update_team_match" />
+
+    <fragment
+        android:id="@+id/nav_delete_team_match"
+        android:name="com.example.sports.ui.Fragments.DeleteTeamMatchFragment"
+        tools:layout="@layout/fragment_delete_team_match" />
+
+</navigation>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SPORTS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">insert sport</string>
+    <string name="menu_gallery">insert athletes</string>
+    <string name="menu_insert_team">insert team</string>
+    <string name="menu_delete_sport">delete sport</string>
+    <string name="menu_delete_team">delete team</string>
+    <string name="menu_delete_athletes">delete athletes</string>
+    <string name="menu_update_sport">update sport</string>
+    <string name="menu_update_team">update team</string>
+    <string name="menu_update_athletes">update athletes</string>
+</resources>

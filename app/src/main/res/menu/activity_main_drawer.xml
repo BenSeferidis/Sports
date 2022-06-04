@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="menuFragment"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+<<<<<<< Updated upstream
+        <item android:title="Sport">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_insert_sport"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Insert Sport" />
+
+                <item
+                    android:id="@+id/nav_update_sport"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Update Sport" />
+
+                <item
+                    android:id="@+id/nav_delete_sport"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Delete Sport" />
+
+
+            </menu>
+
+        </item>
+
+=======
+>>>>>>> Stashed changes
+    </group>
+
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Athlete">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_insert_athlete"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Insert Athlete" />
+
+                <item
+                    android:id="@+id/nav_update_athlete"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Update Athlete" />
+
+                <item
+                    android:id="@+id/nav_delete_athlete"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Delete Athlete" />
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Team">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_insert_team"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Insert Team" />
+
+                <item
+                    android:id="@+id/nav_update_team"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Update Team" />
+
+                <item
+                    android:id="@+id/nav_delete_team"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Delete Team" />
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+    <item android:title="Sport">
+
+        <menu>
+            <item
+                android:id="@+id/nav_insert_sport"
+                android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                android:title="Insert Sport" />
+
+            <item
+                android:id="@+id/nav_update_sport"
+                android:icon="@drawable/ic_baseline_refresh_24"
+                android:title="Update Sport" />
+
+            <item
+                android:id="@+id/nav_delete_sport"
+                android:icon="@drawable/ic_baseline_delete_outline_24"
+                android:title="Delete Sport" />
+
+
+        </menu>
+
+    </item>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Individual Match">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_insert_individual_match"
+                    android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                    android:title="Insert Individual Match" />
+
+                <item
+                    android:id="@+id/nav_update_individual_match"
+                    android:icon="@drawable/ic_baseline_refresh_24"
+                    android:title="Update Individual Match" />
+
+                <item
+                    android:id="@+id/nav_delete_individual_match"
+                    android:icon="@drawable/ic_baseline_delete_outline_24"
+                    android:title="Delete Match" />
+
+            </menu>
+
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Team Match">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_insert_team_match"
+                    android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                    android:title="Insert Team Match" />
+
+                <item
+                    android:id="@+id/nav_update_team_match"
+                    android:icon="@drawable/ic_baseline_refresh_24"
+                    android:title="Update Team Match" />
+
+                <item
+                    android:id="@+id/nav_delete_team_match"
+                    android:icon="@drawable/ic_baseline_delete_outline_24"
+                    android:title="Delete Match" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

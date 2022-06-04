@@ -6,7 +6,9 @@ This is an app developed by students of IEE IHU.
 This Project was created for a lecture called Advanced Topics of Human Computer Interaction (Mobile Programming) from the International Hellenic University.
 The language is in English .
 You can Insert an Athlete or a Sport or a Team and they are saved in the local Database using ROOM API.
-You can also update a table or delete it.
+You can also update a table or delete it. 
+The app is based on Adnroid so you will need Android Studio to run it .
+Enjoy!
 
 Please tell us your opinions about the project.
 
